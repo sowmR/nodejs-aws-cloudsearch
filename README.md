@@ -50,7 +50,7 @@
 
 Now the dependencies can be installed by running the following command in the command prompt.
 		
-				npm install 
+			npm install 
     
 In the above the package.json file, "main:" will have the file that the app will mainly run on. Hence server.js is the file all the nodejs configurations will be created.  
 
@@ -70,7 +70,8 @@ Smooth sailing from there.
 
 4) For AWS cloud search, you need to have an aws account with data in it the cloud. Bofore writing the code in the server.js, we need to have aws-sdk installed in the directory. To do that use the following command in the command prompt.
 
-	npm install aws-sdk
+			npm install aws-sdk
+		
 5) Next we will create a file with aws access keys
 6) write the nodejs code to make connections , retrieve the search data  and then pass it to the angular App in server.js
 7) Create an angularjs fileset to display the informations.  
