@@ -1,0 +1,35 @@
+
+
+
+<div class="header-bar">
+<div class="col-sm-12"><h4>AWS Cloud Search</h4></div>
+<!-- Search Button--Start-->
+  <form class="navbar-form" role="search">
+    <div class="input-group add-on col-sm-12">
+      <input class="form-control search-text" placeholder="Enter Search  text here" type="text" ng-model="formData.text">
+      <div class="input-group-btn">
+        <button class="btn search-btn" type="submit" ng-click="searchtext()"><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+    </div>
+  </form>
+
+<!-- Search Button - End-->
+</div>
+<div class="gridStyle" >
+    <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>column1/Year</th>
+                    <th>column2</th>
+                    <th>column3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat='hit in hits'>
+                    <td>{{hit.fields.field[0]}}/ {{hit.fields.field2[0]}}</td>
+                    <td>{{hit.fields.field3[0]}}</td>
+                    <td>{{hit.fields.field4[0]}}</td>
+                </tr>           
+            </tbody>
+        </table>
+</div>
