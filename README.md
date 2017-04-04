@@ -2,7 +2,7 @@
  We can run the aws cloud search from our browser using the nodejs. Here I am using angularjs as Front-end.
 1) First, we need to install nodejs and MongoDB in the system. If you already have them, goto step2
       install nodejs from nodejs.org
-      install MongoDB from  www.Momgodb.com
+      install MongoDB from  www.Mongodb.com
 2) Now we have to set up the project.In command prompt,
      
 		 	mkdir <appdir>
