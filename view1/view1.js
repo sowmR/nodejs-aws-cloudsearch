@@ -11,20 +11,11 @@ angular.module('myApp.view1', ['ngRoute'])
 
 .controller('View1Ctrl', ["$http","$scope",function($http,$scope) {
 	console.log("============INSIDE VIEW1==============");
-	//display first
-  /*$http.get('/api/csd')
-      .then(function(response){
-        $scope.hits=response.data.hits.hit;
-        console.log("First Display Got");
-      })
-      .catch(function(e){
-        console.log("JSON ERROR == "+ e);
-      });
-*/
+	
 //search button click
   $scope.searchtext=function(){
     console.log($scope.formData);
-    $http.post('/api/search',$scope.formData)
+    $http.post('/api/search',$scope.formData)//refer to the api in the server.js
       .then(function(response){
         $scope.formData={};//clear the search textbox for new search
         $scope.hits=response.data.hits.hit;
