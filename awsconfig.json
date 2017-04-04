@@ -1,1 +1,5 @@
-{ "accessKeyId": "AKIAJBGABFSQEVWBC54Q", "secretAccessKey": "BTQi0Rngvt93fEu/kcxI99wLt9t0wfbkckkhTM1C", "region": "us-west-1" }
+{
+  "accessKeyId": "your key", 
+  "secretAccessKey": "yoursecretkey From AWS", 
+  "region": "us-west-1" 
+}
