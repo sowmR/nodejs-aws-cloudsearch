@@ -1,0 +1,77 @@
+/* app css stylesheet */
+
+.navbar {
+	width:100%;
+	background-color: rgba(254,154,46,1);
+	/* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
+  background-image:
+    -webkit-gradient(linear, left top, right top, from(#FF8000), to(#FE9A2E));
+  
+  /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
+  background-image:
+    -webkit-linear-gradient(left, #FF8000, #FE9A2E);
+
+  /* Firefox 3.6 - 15 */
+  background-image:
+    -moz-linear-gradient(left, #FF8000, #FE9A2E);
+
+  /* Opera 11.1 - 12 */
+  background-image:
+    -o-linear-gradient(left, #FF8000, #FE9A2E);
+
+  /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
+  background-image:
+    linear-gradient(to right, #FF8000, #FE9A2E);
+  
+
+}
+.navbar-brand{
+	color:#151515;
+	}
+.navbar-brand >img{
+	padding-top: -5px;
+
+}
+.hlink {
+	color:#151515;
+	font-size: 22px;
+}
+.hlink::hover{
+	color:#424242;
+}
+.center-page{
+	
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-bar{
+	background-color: rgba(0,128,255,0.3);
+	min-height: 100px;
+	margin-top: -20px;
+	display: relative;
+    vertical-align: middle;
+}
+.search-btn{
+	background-color: rgba(124,128,0,1);
+	color:#fbfbfb;
+}
+.search-text{
+	background-color: rgba(0,128,255,0.4);
+	color:#06203B;
+}
+.gridStyle{
+	padding-left: 5%;
+	width:90%;
+	display: flex;
+  align-items: center;
+  
+}
+.table{
+	border-radius: 5px;
+    border:2px solid #FE9A2E;
+}
+.table >thead{
+	background-color: rgba(247,190,129,0.4);
+	border:2px solid #FE9A2E;
+}
