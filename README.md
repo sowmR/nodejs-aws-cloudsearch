@@ -21,7 +21,8 @@
 		npm install mangoose
 
 	If you have multiple dependencies to be installed, the easy way is to create the package.json file in the <appdir> and then run the npm install. 
-	ex- the following code has main dependencies listed: 
+
+   ex- the following code has main dependencies listed: 
 		
     			{
 		
