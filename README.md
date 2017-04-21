@@ -3,8 +3,8 @@
 <p>Before we start, please use this git as reference for code. if you just copy and paste the whole project, it will not work as this a snippets of tested codes. This git doesnot have the 'bower_component' and 'node_modules' folder that will be automatically created when doing npm install. Comments on the code will give you a good reference of what it is doing.</p>
  
 1) First, we need to install nodejs and MongoDB in the system. If you already have them, goto step2
-      install nodejs from nodejs.org
-      install MongoDB from  www.Mongodb.com
+      <p>install nodejs from nodejs.org</p>
+     <p> install MongoDB from  www.Mongodb.com</p>
 2) Now we have to set up the project.In command prompt,
      
 		 	mkdir <appdir>
